@@ -1,0 +1,183 @@
+.book-section{
+  height:600px;
+  border:1px solid black;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  background-color: beige;
+}
+.box{
+  height:600px;
+  width:33.33%;
+  border:1px solid black;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+.room{
+  height:500px;
+  width:90%;
+  border:2px solid none;
+  transform:translatey(-10px);
+}
+.room1{
+  background-image: url("Room1.jpg");
+  background-size: cover;
+}
+.room2{
+  background-image: url("Room2.jpg");
+  background-size: cover;
+}
+.room3{
+  background-image: url("Room3.jpg");
+  background-size: cover;
+}
+.room4{
+  background-image: url("Room4.jpg");
+  background-size: cover;
+}
+.room5{
+  background-image: url("Room5.jpg");
+  background-size: cover;
+}
+.room6{
+  background-image: url("Room6.jpg");
+  background-size: cover;
+}
+.roomtype{
+  display:inline;
+  height:20px;
+  text-align:left;
+  transform:translatey(-20px);
+}
+.book-section2{
+  height:600px;
+  border:2px solid black;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  background-color: beige;
+}
+.roomcost{
+  text-decoration: line-through;
+  transform:translatey(-20px);
+}
+.newroomcost{
+  transform:translatey(-40px);
+}
+#booknow{
+  height:40px;
+  transform:scale(2);
+  transform:translatey(-40px);
+  background-color: blue;
+  color:white;
+}
+#booknow:hover{
+  border:3px solid black;
+}
+#booknow:active{
+  background-color: white;
+  color:black;
+}
+h3{
+  text-align:center;
+  text-decoration:none;
+}
+.foot{
+  height:160px;
+  width:100%;
+  background-color: navy;
+  display:flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content:space-evenly;
+}
+.backtotop{
+  background-color: darkslategray;
+  align-items:center;
+  display:flex;
+  justify-content: center;
+  height:30px;
+}
+.btt{
+  text-align:center;
+  text-decoration:underline;
+}
+#discount{
+  background-color:azure;
+  display:flex;
+  justify-content: center;
+}
+#footer{
+  color:white;
+}
+#feedback{
+  width:50%;
+  height:25px;
+}
+#feedback:hover{
+  border:3px solid black;
+}
+#footerlinks{
+  text-decoration: underline;
+}
+#submit{
+  background-color:aqua;
+  transform:scale(1.2) translate(6px,10px);
+}
+#submit:hover{
+  border:3px solid black;
+}
+#submit:active{
+  background-color: white;
+  color:black;
+}
+.contactus{
+  color:white;
+}
+.copyright{
+  text-align: center;
+  height:20px;
+  background-color: darkslategray ;
+  color:white;
+ 
+}
+.feedback{
+  color:white;
+}
+a{
+  color:white;
+}
+.navbar{
+  font-size: x-large;
+  height:50px;
+  width:100%;
+  background-color:black;
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  position:fixed;
+  top:0px;
+  z-index:9999;
+}
+a{
+  text-decoration:none;
+  color:white;
+}
+#nav-input{
+height:30px;
+width:70%;
+width:px;
+border-radius: 5px;
+border-color:transparent;
+}
+a:active{
+  color:coral;
+}
+#logo:active{
+color: white;
+}
+.border:hover{
+  border:2px solid white;
+}
